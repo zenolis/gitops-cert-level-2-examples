@@ -11,8 +11,3 @@ spec:
     kind: Deployment
     name: simple-deployment
   targetCPUUtilizationPercentage: 50
-  ignoreDifferences:
-  - group: apps
-    kind: Deployment
-    jsonPointers:
-    - /spec/replicas
